@@ -8,10 +8,12 @@ body {
     font-family: jomhuria,serif;
     background-color: #f4f4f4;
     color: #000;
+    overflow-x: hidden;
     
 }
 
 .navbar {
+    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,6 +67,7 @@ body {
     color: white;
 }
 .container {
+    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -122,6 +125,7 @@ body {
 }
 
 .hobbies-section {
+    /* width: 100%; */
     text-align: end;
     padding: 30px;
     background-color: #d3d3d3;
@@ -196,6 +200,7 @@ body {
     
 }
 .about_section{
+    /* display: flex; */
     margin-top: 1vh;
     margin-left: 1vh;
     margin-right: 1vh;
@@ -211,6 +216,7 @@ body {
     font-size: 9vh;
 }
 .container2{
+    /* width: 100%; */
     display: flex;
     gap: 20px;
     justify-content: space-between;
@@ -266,6 +272,7 @@ body {
     
 }
 .container4{
+    /* width: 100%; */
     display: flex;
     gap:10px;
     /* justify-content: space-between; */
@@ -308,17 +315,19 @@ body {
     
 }
 .container5{
-    width: 100%;
+    /* width: 100%; */
+    flex-wrap: wrap;
     margin-top: 10px;
     border-top: 5px solid #000;
     border-bottom: 5px solid #000;
-    /* display: flex; */
+    display: flex;
     gap: 10px;
     background-color: #D9D9D9;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: space-between;
 }
 .gambar-design{
+    /* overflow-x: hidden; */
     display: flex;
     padding: 20px;
     flex-wrap: wrap;

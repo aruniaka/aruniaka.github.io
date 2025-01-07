@@ -487,6 +487,9 @@ body {
         flex-direction: column;
         align-items: flex-start;
     }
+    body{
+        overflow-x: hidden;
+    }
 
     .navbar .menu {
         flex-wrap: wrap;
